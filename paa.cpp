@@ -12,8 +12,7 @@ using namespace std;
 
 /** Globaalien muuttujien m‰‰rittelyt. Taulukon koko
 *   m‰‰ritetty vakiomuuttujassa. tauluTemp t‰ss‰ koska
-*   osoitinta ei voi m‰‰ritt‰‰ vakion kautta. Aliohjelmien
-*   esim‰‰ritykset myˆs.
+*   osoitinta ei voi m‰‰ritt‰‰ vakion kautta. 
 */
 const int taulunkoko = 10;
 int tauluTemp = taulunkoko;

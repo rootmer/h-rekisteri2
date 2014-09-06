@@ -14,11 +14,17 @@ struct tietue {
     tietue(): etunimi("empty"), koulumatka(0.0), hattukoko(0) {}
 };
 
+/** taulukon koko vakiomuuttujana
+*	
+*/
 extern const int taulunkoko;
 extern int tauluTemp;
 extern int *pTauluKoko;
 extern bool taynna;
 
+/** aliohjelmien prototyypit
+*
+*/
 int valikko(void);
 void TulostaHenkilo(tietue TIEDOT[]);
 void TulostaKaikkiHenkilot(tietue TIEDOT[], int lkm);
